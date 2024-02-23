@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* light gray */
+}
+
+header {
+    background-color: #343a40; /* dark gray */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #17a2b8; /* light blue */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40; /* dark gray */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #343a40; /* dark gray */
+}
+
+.project p {
+    color: #555;
+}
+
+/* Add more styles as needed */
